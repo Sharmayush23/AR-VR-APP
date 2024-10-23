@@ -1,1 +1,2 @@
 Bookshelf.APK filter=lfs diff=lfs merge=lfs -text
+VR_CHEMISTRY.apk filter=lfs diff=lfs merge=lfs -text
