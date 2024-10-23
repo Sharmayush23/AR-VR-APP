@@ -1,0 +1,49 @@
+/* Basic styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header img {
+    width: 100%;
+    height: 300px;
+  }
+  
+  nav {
+    background-color: #f0f0f0;
+    padding: 20px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  nav ul li {
+    margin-bottom: 10px;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  section {
+    margin-bottom: 40px;
+  }
+  
+  section h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  /* Styling for active table of contents link */
+  nav ul li a.active {
+    font-weight: bold;
+    color: blue;
+  }
+  
+  #midpic{
+    width: 95%;
+  }

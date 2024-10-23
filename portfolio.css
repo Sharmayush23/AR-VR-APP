@@ -1,0 +1,39 @@
+
+/* Make sure the body covers the entire page and centers the video */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 10%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #ffffff;
+}
+
+/* Center the video and maintain a 16:9 aspect ratio */
+.video-container {
+    width: 100%; /* You can adjust this percentage */
+    max-width: 1000px; /* Maximum width for the video */
+    aspect-ratio: 9 / 16;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+video {
+    width: 30%;
+    height: 30%;
+    object-fit: cover;
+}
+
+@media (max-width: 680px)
+{
+    video{
+        width: 100%;
+        height: 100%;
+        margin: 0%;
+    }
+    .video-container{
+        width: 100%;
+    }
+}

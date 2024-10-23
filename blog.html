@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-E068XV1FXZ"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+  
+    gtag('config', 'G-E068XV1FXZ');
+  </script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>blogs</title><link rel="stylesheet" href="blog.css">
+</head>
+<body>
+    <nav id="navbar" class="navbar">
+        <div class="mobdown">
+          <div class="dropdown">
+            <button class="dropbtn"><a class="social-icon__link" href="#">
+              <ion-icon name="menu-outline"></ion-icon>
+            </a></button>
+            <div class="dropdown-content">
+              <a href="index.html">HOME</a>
+              <a href="#section3">LEARN</a>
+              <a href="adventure.html">ADVENTURE</a>
+              <a href="index.html/#section4">VR HEADSET</a>
+              <a href="3dmodel.html">3D MODELS</a>
+              <a href="blog.html">BLOG</a>
+              <a href="professional.html">FOR CREATORS</a>
+              <a href="contact.html">CONTACT</a>
+            </div>
+          </div>
+        </div>   
+      <div id="left"> VROCUS</div>
+      
+      <div id="center">
+      <div id="center_list">
+      <div class="dropdown">
+          <button class="dropbtn"><a class="a1" href="">home</a></button>
+          <div class="dropdown-content">
+            <a href="#section3">FOR USER</a>
+            <a href="#section2">FOR CREATOR</a>
+          </div>
+        </div>
+        <div class="dropdown">
+          <button class="dropbtn"><a class="a1" href="">Products</a></button>
+          <div class="dropdown-content">
+            <a href="practical.html">LEARN</a>
+            <a href="adventure.html">ADVENTURE</a>
+            <a href="vr_headsets.html">VR HEADSET</a>
+            <a href="3dmodel.html">3D MODELS</a>
+          </div>
+        </div>
+        <div class="dropdown">
+          <button class="dropbtn"><a class="a1" href="">ABOUT</a></button>
+          <div class="dropdown-content">
+            <a href="about.html">WHO WE ARE?</a>
+            <a href="blog.html">BLOG</a>
+            <a href="faq.html">FAQ</a>
+            <a href="contact.html">CONTACT</a>
+            <a href="team.html">TEAM</a>
+          </div>
+        </div>
+        <div class="dropdown">
+          <button class="dropbtn"><a class="a1" href="">creator</a></button>
+          <div class="dropdown-content">
+            <a href="practical.html">DEVELOPERS</a>
+            <a href="adventure.html">PROFESSIONALS</a>
+          </div>
+        </div>
+        </div>
+      </div >
+      </div> 
+      </div>
+      <div id="right">
+      
+      <div class="buttons">
+         <button id="a" class="btn-hover color-1"><a href="login.html" id="a">SIGN UP</a></button>
+      
+        </div>
+      </div>
+      </nav>
+<section>
+
+<div class="heading">
+<!-- <h1>blogs</h1> -->
+<p> </p>
+</div>
+<div class="container">
+    <div class="c1" onclick="openblog()">
+        <div class="text" >
+            <div class="title">uses of virtual reality in different industries </div>
+        </div>
+    <img src="img/vrdifferentindustries.png" alt="">
+    </div>
+    <div class="c1" onclick="openblog2()" >
+        <div class="text">
+            <div class="title">evolution of virtual reality</div>
+        </div>
+    <img src="img/vrevo.png" alt="">
+    </div>
+
+    <div class="c1" onclick="openblog3()">
+      <div class="text">
+          <div class="title">future demand of virtual reality</div>
+      </div>
+  <img src="img/virtualtrends.png" alt="">
+  </div>
+</div>
+<div class="popup" id="popup">
+  <div class="popup-content">
+   <div class="popuptop">
+    <h1>Welcome to Our vrocus Blogs!</h1>
+    <button onclick="closePopup()">×</button>
+   </div>
+    <p>get access to the latest information and developments in the realm of virtual reality, particularly through informative blogs and updates!</p>
+
+  </div>
+</div>
+
+    
+</section>
+<script>
+function openblog() {
+  window.open("blog/blog.html")
+}
+function openblog2() {
+  window.open("blog/blog2.html")
+}
+function openblog3() {
+  window.open("blog/blog3.html")
+}
+
+  window.onload = function () {
+    var popup = document.getElementById('popup');
+    popup.style.display = 'block';
+  };
+
+  function closePopup() {
+    var popup = document.getElementById('popup');
+    popup.style.display = 'none';
+  }
+</script>
+</script>
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+</html>
